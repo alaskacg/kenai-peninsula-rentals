@@ -11,7 +11,7 @@ import SignUpPage from './pages/SignUpPage'
 import HowItWorksPage from './pages/HowItWorksPage'
 import SafetyPage from './pages/SafetyPage'
 
-import ListingSuccess from "@/pages/ListingSuccess";
+import ListingSuccess from "./pages/ListingSuccess";
 function App() {
   return (
     <Router>
