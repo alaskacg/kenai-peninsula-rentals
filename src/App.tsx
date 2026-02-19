@@ -11,6 +11,7 @@ import SignUpPage from './pages/SignUpPage'
 import HowItWorksPage from './pages/HowItWorksPage'
 import SafetyPage from './pages/SafetyPage'
 
+import ListingSuccess from "@/pages/ListingSuccess";
 function App() {
   return (
     <Router>
@@ -27,7 +28,8 @@ function App() {
             <Route path="/signup" element={<SignUpPage />} />
             <Route path="/how-it-works" element={<HowItWorksPage />} />
             <Route path="/safety" element={<SafetyPage />} />
-          </Routes>
+            <Route path="/listing-success" element={<ListingSuccess />} />
+        </Routes>
         </main>
         <Footer />
       </div>
